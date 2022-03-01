@@ -91,6 +91,11 @@ public class BasicController {
         return "basic/operation";
     }
 
+    @GetMapping(value = "/attribute")
+    public String attribute(Model model) {
+        return "basic/attribute";
+    }
+
     @Data
     static class User {
         private String username;
