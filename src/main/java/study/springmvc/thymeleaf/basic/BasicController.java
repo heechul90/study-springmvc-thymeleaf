@@ -102,11 +102,17 @@ public class BasicController {
         return "basic/each";
     }
 
+    @GetMapping(value = "/condition")
+    public String condition(Model model) {
+        addUsers(model);
+        return "basic/condition";
+    }
+
     private void addUsers(Model model) {
         List<User> list = new ArrayList<>();
-        list.add(new User("userA", 33));
-        list.add(new User("userB", 22));
-        list.add(new User("userC", 11));
+        list.add(new User("userA", 25));
+        list.add(new User("userB", 20));
+        list.add(new User("userC", 15));
 
         model.addAttribute("users", list);
     }
