@@ -33,4 +33,6 @@
     - 템플릿 레이아웃2
     - 정리
 
-[다음으로](https://github.com/heechul90/study-springmvc-form)
+[[이전으로]](https://github.com/heechul90/study-springmvc-item-service) [[다음으로]](https://github.com/heechul90/study-springmvc-form)
+
+[[복습하기/적용하기]](https://github.com/heechul90/project-hellcoding)
